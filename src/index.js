@@ -22,7 +22,6 @@ app.use("/api/v1/category", categoryRoutes)
 app.use("/api/v1/product", productRoutes)
 
 console.log('hi')
-console.log('ji')
 
 app.get('/', (req, res) => {
     res.send(`Server running at ${port}`)
