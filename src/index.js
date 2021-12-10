@@ -22,7 +22,7 @@ app.use("/api/v1/category", categoryRoutes)
 app.use("/api/v1/product", productRoutes)
 
 app.get('/', (req, res) => {
-    res.send(`Server running at ${port} (Deployed via workflow 123314124)`)
+    res.send(`Server running at ${port} (Deployed via workflow with secrets)`)
 })
 
 app.listen(port, (req, res) => {
